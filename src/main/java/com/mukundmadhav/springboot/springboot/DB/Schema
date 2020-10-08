@@ -1,0 +1,18 @@
+create table department(
+	department_id int(11),
+	department_name VARCHAR(100),
+	start_date TIMESTAMP,
+	created_by_userLogin_id VARCHAR(255),
+	last_updated_stamp TIMESTAMP,
+	created_stamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	constraint pk_department primary key(department_id)
+);
+
+
+CREATE TABLE `tb_emp` (
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `name` varchar(255) DEFAULT NULL,
+    `gender` varchar(255) DEFAULT NULL,
+    `department` varchar(255) DEFAULT NULL,
+    `dob` date DEFAULT NULL,
+    PRIMARY KEY (`id`));
