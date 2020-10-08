@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import AddEmployee from "./Components/AddEmployee";
+import AddEmployee from "./Components/Employee/AddEmployee";
 import { Route, BrowserRouter as Router } from "react-router-dom";
-import Table from "./Components/Table";
+import Table from "./Components/Employee/Table";
 import Department from "./Components/Department/Department"
 
 class App extends Component {
